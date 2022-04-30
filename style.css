@@ -1,0 +1,44 @@
+* {
+  margin: 0%;
+}
+.navbar {
+  height: 5rem;
+  background-color: #ee6c4d;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-size: x-large;
+  font-weight: bold;
+  color: #e0fbfc;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+  gap: 8px;
+}
+
+li {
+  background-color: #e0fbfc;
+  list-style-type: none;
+  padding: 8px 16px;
+  border-radius: 25%;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+}
+.hero {
+  min-height: calc(100vh - 5rem);
+  background-color: #293241;
+  color: #e0fbfc;
+}
+.hero h1 {
+  color: #98c1d9;
+}
+button {
+  background-color: #ee6c4d;
+  color: #293241;
+  font-weight: 700;
+}
