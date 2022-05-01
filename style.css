@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&family=Titillium+Web&display=swap");
+
 * {
   margin: 0%;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
 }
 .navbar {
   height: 5rem;
@@ -10,6 +15,7 @@
 .logo {
   font-size: x-large;
   font-weight: bold;
+  font-family: "Alegreya Sans SC", sans-serif;
   color: #e0fbfc;
 }
 ul {
@@ -36,6 +42,7 @@ a {
 }
 .hero h1 {
   color: #98c1d9;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 button {
   background-color: #ee6c4d;
